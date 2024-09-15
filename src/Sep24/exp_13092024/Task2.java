@@ -18,8 +18,5 @@ public class Task2 {
         System.out.println();
         System.out.printf("%f / %f= %f",a, b,(a/b));
         System.out.println();
-
-
-
     }
 }
