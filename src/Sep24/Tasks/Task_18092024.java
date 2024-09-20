@@ -4,17 +4,17 @@ public class Task_18092024 {
     public static void main(String[] args){
         //1.
         //Widening is the process of converting lower type to higher type
-        byte b= 10;
-        int a=b; //VALID - Implicit casting
-        int a=(int)b; //VALID - Explicit casting
+//        byte o= 10;
+//        int o=n; //VALID - Implicit casting
+//        int o=(int)n; //VALID - Explicit casting
         //Narrowing is the process of converting higher type to lower type
-        int a=300;
-        byte b=a; // INVALID -Implicit casting
-        byte b =(byte)a; //VALID -Explicit casting
+//        int p=300;
+//        byte q=p; // INVALID -Implicit casting
+//        byte q =(byte)p; //VALID -Explicit casting
 
-        int a=300; //int means 32 bits memory required
-        //000000000000000000000000100101100
-       byte b1 =(byte)a; //byte means 8bits memory required
+//        int a=300; //int means 32 bits memory required
+//        //000000000000000000000000100101100
+       //byte b1 =(byte)a; //byte means 8bits memory required
         //00101100
                 //value is 0+0+32+0+8+4+0+0=44
 //2.
