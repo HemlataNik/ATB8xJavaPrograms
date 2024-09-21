@@ -2,14 +2,18 @@ package Sep24.Tasks;
 
 public class Task_LeapYear_20092024 {
     public static void main(String[] args) {
-        int year = 2024; // Replace with the year you want to check TheTestingAcademy
+        int year = 2024;
         boolean isLeapYear = false;
-        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+        {
             isLeapYear = true;
         }
-        if (isLeapYear) {
+        if (isLeapYear)
+        {
             System.out.println(year + " is a leap year.");
-        } else {
+        }
+        else
+        {
             System.out.println(year + " is not a leap year.");
         }
     }

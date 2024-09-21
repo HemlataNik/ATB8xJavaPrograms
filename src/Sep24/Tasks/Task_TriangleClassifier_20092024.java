@@ -16,14 +16,19 @@ public class Task_TriangleClassifier_20092024 {
 // Use an if-else statement to classify the triangle.
 
 // side1, side2, side3 ->
-        int side1 = 67; // Replace with the lengths of your triangle's sides
-        int side2 = 45;
-        int side3 = 67;
-        if (side1 == side2 && side2 == side3) {
+        int a = 7;
+        int b = 5;
+        int c = 8;
+        if (a == b && b == c)
+        {
             System.out.println("Equilateral triangle");
-        } else if (side1 == side2 || side1 == side3 || side2 == side3) {
+        }
+        else if (a == b || a == c || b == c)
+        {
             System.out.println("Isosceles triangle");
-        } else {
+        }
+        else
+        {
             System.out.println("Scalene triangle");
         }
     }
