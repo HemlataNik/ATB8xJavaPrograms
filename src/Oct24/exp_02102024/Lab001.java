@@ -11,10 +11,15 @@ public class Lab001 {
         amit.age = 35;
 
         ATBstudent abhishek = new ATBstudent();
-        abhishek.age = 65;
+        abhishek.age = 35;
+
+        ATBstudent randhir = new ATBstudent();
+        randhir.age = 30;
 
         System.out.println(amit);
 
         System.out.println(abhishek);
+
+        System.out.println(randhir);
     }
 }
