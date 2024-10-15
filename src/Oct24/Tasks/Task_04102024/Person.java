@@ -1,82 +1,65 @@
 package Oct24.Tasks.Task_04102024;
 
 public class Person {
+    //Create a Person Class with 10 A, 5 Behavr( All types of Methods) and use the DC and PC to set the values, Create 5 Objects.
+    //Attributes
     String name;
-    int age;
-    float height;
-    String job;
-    Boolean is_married;
-    String color;
-    String nationality;
-    String blood_group;
-    int years_exp;
+    int age = 30;
+    long adhar_no;
     String address;
+    String email = "abc@gmail.com";
+    int phone_no;
+    String gender;
+    boolean salaried;
+    boolean working;
+    boolean hasCar;
 
-    Person()
-    {
-        System.out.println("Default Constructor");
+    //Constructors
+    //Default constructor (of class)
+    Person() {
+        System.out.println("I will be called when object is created");
+        //Write a code which will automatically called when object is created
+        //Read a file like txt
+        //Read a CSV fie or Excel file here
 
     }
 
-    Person(String name)
-    {
-        System.out.println("I'm parameterized");
+    //Parametrize constructor
+    Person(String name) {
+        System.out.println("Hi, I am Parm Constructor1");
         this.name = name;
-        System.out.println("The name is " +name);
     }
-    Person(String name, int age, String address)
-    {
-        this.name = name;
-        this.age = age;
-        this.address = address;
+
+    Person(long adhar_no) {
+        System.out.println("Hi, I am Parm Constructor2");
+        this.adhar_no = 123456678912L;
     }
-    Person(String name, float height, String color, String nationality)
-    {
-        this.name = name;
-        this.height = height;
-        this.color = color;
-        this.nationality = nationality;
-    }
-    Person(boolean is_married)
-    {
-        this.is_married = is_married;
-    }
-    void function1()
-    {
+
+
+    //Behaviours:
+    void travel() {
         System.out.println("NRNA");
     }
-    public static int function2()
-    {
-        System.out.println("WRNA");
-        return 45;
+
+    int age() {
+        System.out.println("RTNA");
+        return 30;
     }
 
-    public void function3(String name)
-    {
-        System.out.println("WANR");
-        System.out.println("The person name is " + name);
+    String drive(String name) {
+        System.out.println("Driving");
+        System.out.println("RTWA");
+        return "I am driving";
     }
 
-    public static String function4(String address)
-    {
-        System.out.println("WAWR");
-        System.out.println("The Address is " +address);
-        return "Hello";
+    void play(String player) {
+        System.out.println("NRWA");
+        System.out.println("Playing");
     }
 
-    void display()
-    {
-        System.out.println("Person name is " +name);
-        System.out.println("the address is " +address);
+    void sing(String singer) {
+        System.out.println("NRWA");
+        System.out.println("Singing");
     }
 
-    public static void main(String[] args) {
-        Person obj1 = new Person();
-        Person obj2 = new Person("Arul");
-        Person obj3 = new Person("Arul", 35, "123 main st");
-        obj1.function3("JK");
-        obj1.function2();
-        obj1.function4("123 main road");
-        obj3.display();
-    }
 }
