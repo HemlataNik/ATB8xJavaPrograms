@@ -1,4 +1,4 @@
-package Oct24.Tasks.Task_03112024;
+package Oct24.Tasks.Task_04112024;
 
 public class FindDuplicatesArray {
     public static void main(String[] args) {

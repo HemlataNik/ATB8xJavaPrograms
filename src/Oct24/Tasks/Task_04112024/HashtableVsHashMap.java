@@ -1,7 +1,4 @@
-package Oct24.Tasks.Task_03112024;
-
-import java.util.HashMap;
-import java.util.concurrent.SynchronousQueue;
+package Oct24.Tasks.Task_04112024;
 
 public class HashtableVsHashMap {
     /*
