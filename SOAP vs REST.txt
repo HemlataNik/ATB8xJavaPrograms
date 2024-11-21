@@ -1,0 +1,19 @@
+SOAP -
+
+Simple Object Access Protocol
+1.Used for sending requests from client to server.
+2.Consumes high bandwidth while sending requests becoz its Slower
+3.Messages are sent in an envelope structure.
+4.Offers higher security compared to other protocols.
+5.Uses XML format for communication.
+
+
+REST -
+
+Representational State Transfer 
+1.It is an architectural style, not a protocol.
+2.It is more flexible compared to SOAP.
+3.Supports multiple data formats like JSON, JavaScript, HTML, XML, etc.
+4.Typically uses JSON format for data transfer.
+5.Works with standard HTTP methods such as GET, POST, PUT, and DELETE.
+6.Faster and lightweight compared to SOAP.
